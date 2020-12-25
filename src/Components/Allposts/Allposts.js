@@ -4,9 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Allposts.css";
 import Axios from "axios";
 import img from "../../../src/assest/two.PNG";
-const arra = ["a", "b", "c", "a", "d", "b"];
-var flag;
-var answer = [];
 
 class Allposts extends Component {
   state = {
@@ -29,24 +26,8 @@ class Allposts extends Component {
     });
     this.fun();
   }
-  fun = () => {
-    for (let i = 0; i < arra.length; i++) {
-      // console.log(arra[i]);
-      flag = arra[i]; //a
-      if (answer === "") answer = flag; //answer =>a
-      if (!answer === flag) {
-        answer = flag;
-      } else {
-        console.log("kosomk");
-      }
-    }
-  };
 
   render() {
-    console.log(answer);
-    // Array of split strings
-    console.log(answer);
-
     const mapp = this.state.persons.map((person, index) => {
       return (
         <div key={index} className="card">

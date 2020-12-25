@@ -30,42 +30,44 @@ class Login extends Component {
     console.log(this.state.dat);
 
     return (
-      <div className="login">
-        <Form>
-          <h1>Login please to begin see ur Posts</h1>
-          <hr />
-          <Form.Group controlId="formBasicEmail">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control
-              onChange={this.createEmail}
-              type="email"
-              placeholder="Enter email"
-              required
-            />
-            <Form.Text className="text-muted">
-              We'll never share your email with anyone else.
-            </Form.Text>
-          </Form.Group>
+      <div className="main">
+        <div className="login">
+          <Form>
+            <h1>Login please to begin see ur Posts</h1>
+            <hr />
+            <Form.Group controlId="formBasicEmail">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                onChange={this.createEmail}
+                type="email"
+                placeholder="Enter email"
+                required
+              />
+              <Form.Text className="text-muted">
+                We'll never share your email with anyone else.
+              </Form.Text>
+            </Form.Group>
 
-          <Form.Group controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
-            <Form.Control
-              onChange={this.createPassword}
-              type="password"
-              placeholder="Password"
-              required
-            />
-          </Form.Group>
-          <Form.Group controlId="formBasicCheckbox">
-            {/* <Form.Check type="checkbox" label="Check me out" /> */}
-          </Form.Group>
-          <Button onClick={this.craeteLogin} variant="primary" type="submit">
-            Submit
-          </Button>
-          <Nav.Link className="sign" href="signup">
-            Sign Up
-          </Nav.Link>
-        </Form>
+            <Form.Group controlId="formBasicPassword">
+              <Form.Label>Password</Form.Label>
+              <Form.Control
+                onChange={this.createPassword}
+                type="password"
+                placeholder="Password"
+                required
+              />
+            </Form.Group>
+            <Form.Group controlId="formBasicCheckbox">
+              {/* <Form.Check type="checkbox" label="Check me out" /> */}
+            </Form.Group>
+            <Button onClick={this.craeteLogin} variant="primary" type="submit">
+              Submit
+            </Button>
+            <Nav.Link className="sign" href="signup">
+              Sign Up
+            </Nav.Link>
+          </Form>
+        </div>
       </div>
     );
   }

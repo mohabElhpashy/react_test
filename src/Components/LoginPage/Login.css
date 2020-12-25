@@ -1,7 +1,17 @@
+.main {
+  background-image: url("../../assest/five.PNG");
+  width: 100%;
+  height: 700px;
+  border-style: dotted;
+}
+.d {
+  color: white;
+}
 .login {
   width: 50%;
   border-color: gainsboro;
   border-radius: 15px;
+  background-color: white;
   text-align: center;
   position: relative;
   border-style: solid;
