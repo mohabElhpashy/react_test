@@ -1,0 +1,22 @@
+.header {
+  background-color: #9fe2bf;
+}
+.sora {
+  height: 240px;
+  width: 245, 53px;
+  border-style: none;
+  vertical-align: middle;
+  border: 0;
+  border-style: 0;
+  text-decoration: none;
+  outline: none;
+}
+.loginn {
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+
+.loginn:hover {
+  color: blue;
+  letter-spacing: 2.5px;
+}

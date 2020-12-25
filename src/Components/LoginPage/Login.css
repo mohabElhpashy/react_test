@@ -1,0 +1,18 @@
+.login {
+  width: 50%;
+  border-color: gainsboro;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  border-style: solid;
+  left: 22.5%;
+  margin-top: 10%;
+}
+.sign {
+  color: blue;
+  letter-spacing: 2.5px;
+}
+.sign:hover {
+  cursor: pointer;
+  letter-spacing: 5px;
+}

@@ -1,0 +1,18 @@
+.Post {
+  background-image: url("../../assest/five.PNG");
+  width: 100%;
+  height: 700px;
+  border-style: dotted;
+}
+
+.form {
+  width: 50%;
+  border-color: gainsboro;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  border-style: solid;
+  left: 22.5%;
+  margin-top: 3%;
+  background-color: #fff;
+}

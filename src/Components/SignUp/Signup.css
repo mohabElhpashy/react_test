@@ -1,0 +1,10 @@
+.SignUp {
+  width: 50%;
+  border-color: gainsboro;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  border-style: solid;
+  left: 22.5%;
+  margin-top: 3%;
+}
