@@ -1,5 +1,6 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { Component } from "react";
-import { Form, Button, Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import img from "../../assest/Capture.PNG";
 import "./Home.css";
@@ -9,7 +10,7 @@ class Home extends Component {
     return (
       <header class="header">
         <div class="container d-flex align-items-center flex-column">
-          <img class="sora" src={img} alt></img>
+          <img class="sora" src={img} />
           <h1 class="masthead-heading text-uppercase mb-0">
             What is on your mind?
           </h1>
