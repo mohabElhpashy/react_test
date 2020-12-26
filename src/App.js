@@ -16,11 +16,11 @@ class App extends Component {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/login" component={LoginPage} />
-          <Route path="/signup" component={Signup} />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/post" component={Post} />
-          <Route exact path="/allposts" component={Allposts} />
+          <Route path="/login" exact component={LoginPage} />
+          <Route path="/signup" exact component={Signup} />
+          <Route path="/"  exact component={Home} />
+          <Route path="/post" exact component={Post} />
+          <Route path="/allposts" exact component={Allposts} />
         </Switch>
       </Router>
     );
