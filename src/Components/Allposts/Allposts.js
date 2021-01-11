@@ -24,7 +24,6 @@ class Allposts extends Component {
       const persons = res.data;
       this.setState({ persons });
     });
-    this.fun();
   }
 
   render() {
